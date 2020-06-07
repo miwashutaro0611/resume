@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "pdf": "cat README.md | md-to-pdf --stylesheet https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css --body-class markdown-body > miwa-resume.pdf",
-    "build": "yarn clear && parcel build src/index.js -d dist",
-    "build:pro": "yarn clear && parcel build src/index.js --no-source-maps -d dist",
+    "build": "parcel build src/index.js -d dist",
+    "build:pro": "parcel build src/index.js --no-source-maps -d dist",
     "clear": "rm -rf dist"
   },
   "repository": {
@@ -16,12 +16,7 @@
   "author": "",
   "license": "ISC",
   "lint-staged": {
-    "*.md": [
-      "yarn pdf"
-    ],
-    "*.js": [
-      "yarn build:pro"
-    ]
+    "*.md": ["yarn pdf"]
   },
   "bugs": {
     "url": "https://github.com/miwashutaro0611/resume/issues"

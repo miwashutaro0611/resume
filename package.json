@@ -16,7 +16,7 @@
   "author": "",
   "license": "ISC",
   "lint-staged": {
-    "*.md": ["yarn pdf"]
+    "README.md": ["yarn pdf"]
   },
   "bugs": {
     "url": "https://github.com/miwashutaro0611/resume/issues"

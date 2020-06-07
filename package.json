@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "pdf": "cat README.md | md-to-pdf --stylesheet https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css --body-class markdown-body > miwa-resume.pdf",
-    "build": "parcel build src/index.js -d dist",
-    "build:pro": "parcel build src/index.js --no-source-maps -d dist",
+    "build:css": "parcel build src/style.scss --no-source-maps -d dist",
+    "build:js": "parcel build src/index.js --no-source-maps -d dist",
+    "build": "parcel build src/index.js -d dist && parcel build src/style.scss -d dist",
+    "build:pro": "parcel build src/index.js --no-source-maps -d dist && parcel build src/style.scss --no-source-maps -d dist",
     "clear": "rm -rf dist"
   },
   "repository": {
@@ -30,6 +32,7 @@
   "devDependencies": {
     "husky": "^4.2.5",
     "lint-staged": "^10.2.9",
-    "parcel": "^1.12.4"
+    "parcel": "^1.12.4",
+    "sass": "^1.26.8"
   }
 }

@@ -4,7 +4,7 @@
   "description": "# プロフィール",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pdf": "cat README.md | md-to-pdf --stylesheet https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css --body-class markdown-body > miwa-resume.pdf"
   },
   "repository": {
     "type": "git",

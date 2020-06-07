@@ -4,7 +4,10 @@
   "description": "# プロフィール",
   "main": "index.js",
   "scripts": {
-    "pdf": "cat README.md | md-to-pdf --stylesheet https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css --body-class markdown-body > miwa-resume.pdf"
+    "pdf": "cat README.md | md-to-pdf --stylesheet https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css --body-class markdown-body > miwa-resume.pdf",
+    "build": "yarn clear && parcel build src/index.js -d dist",
+    "build:pro": "yarn clear && parcel build src/index.js --no-source-maps -d dist",
+    "clear": "rm -rf dist"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,11 @@
   },
   "homepage": "https://github.com/miwashutaro0611/resume#readme",
   "dependencies": {
+    "axios": "^0.19.2",
+    "marked": "^1.1.0",
     "md-to-pdf": "^3.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4"
   }
 }

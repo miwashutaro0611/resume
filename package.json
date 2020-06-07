@@ -15,6 +15,14 @@
   },
   "author": "",
   "license": "ISC",
+  "lint-staged": {
+    "*.md": [
+      "yarn pdf"
+    ],
+    "*.js": [
+      "yarn build:pro"
+    ]
+  },
   "bugs": {
     "url": "https://github.com/miwashutaro0611/resume/issues"
   },
@@ -25,6 +33,8 @@
     "md-to-pdf": "^3.1.0"
   },
   "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.9",
     "parcel": "^1.12.4"
   }
 }

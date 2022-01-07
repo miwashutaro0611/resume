@@ -1,5 +1,9 @@
-import marked from 'marked'
+import { marked } from 'marked'
 import axios from 'axios'
 
+const elemContent = document.getElementById('mdContainer')
+
 axios.get('../README.md')
-  .then(response => document.getElementById('mdContainer').innerHTML = marked(response.data));
+  .then(response => {
+    elemContent.innerHTML = marked(response.data)
+  });

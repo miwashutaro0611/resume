@@ -23,7 +23,6 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "README.md": "textlint --fix",
     "package.json": "sort-package-json"
   },
   "browserslist": "> 2% in JP, ios >= 15.4, not dead",

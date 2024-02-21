@@ -4435,10 +4435,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["ip", [\
-      ["npm:1.1.8", {\
-        "packageLocation": "../../.yarn/berry/cache/ip-npm-1.1.8-abea558b72-10c0.zip/node_modules/ip/",\
+      ["npm:1.1.9", {\
+        "packageLocation": "../../.yarn/berry/cache/ip-npm-1.1.9-e72dd3cc0a-10c0.zip/node_modules/ip/",\
         "packageDependencies": [\
-          ["ip", "npm:1.1.8"]\
+          ["ip", "npm:1.1.9"]\
         ],\
         "linkType": "HARD"\
       }],\
@@ -6502,7 +6502,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["pac-resolver", "npm:7.0.0"],\
           ["degenerator", "npm:5.0.1"],\
-          ["ip", "npm:1.1.8"],\
+          ["ip", "npm:1.1.9"],\
           ["netmask", "npm:2.0.2"]\
         ],\
         "linkType": "HARD"\

@@ -96,7 +96,7 @@ Next.js, React.js, Storybook, TypeScript, Micro CMS
 
 #### 期間
 
-2023.04 ~ 2024.01(現在)
+2023.04 ~ 2024.08(現在)
 
 #### 職種
 

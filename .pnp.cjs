@@ -511,7 +511,7 @@ const RAW_RUNTIME_STATE =
           ["dotenv", "npm:7.0.0"],\
           ["dotenv-expand", "npm:5.1.0"],\
           ["json5", "npm:2.2.3"],\
-          ["msgpackr", "npm:1.10.0"],\
+          ["msgpackr", "npm:1.10.1"],\
           ["nullthrows", "npm:1.1.1"],\
           ["semver", "npm:7.5.4"]\
         ],\
@@ -5315,7 +5315,7 @@ const RAW_RUNTIME_STATE =
           ["@lmdb/lmdb-linux-arm64", "npm:2.8.5"],\
           ["@lmdb/lmdb-linux-x64", "npm:2.8.5"],\
           ["@lmdb/lmdb-win32-x64", "npm:2.8.5"],\
-          ["msgpackr", "npm:1.10.0"],\
+          ["msgpackr", "npm:1.10.1"],\
           ["node-addon-api", "npm:6.1.0"],\
           ["node-gyp", "npm:10.0.1"],\
           ["node-gyp-build-optional-packages", "npm:5.1.1"],\
@@ -6099,10 +6099,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["msgpackr", [\
-      ["npm:1.10.0", {\
-        "packageLocation": "../../.yarn/berry/cache/msgpackr-npm-1.10.0-40ff8e56d8-10c0.zip/node_modules/msgpackr/",\
+      ["npm:1.10.1", {\
+        "packageLocation": "../../.yarn/berry/cache/msgpackr-npm-1.10.1-5c5ff5c553-10c0.zip/node_modules/msgpackr/",\
         "packageDependencies": [\
-          ["msgpackr", "npm:1.10.0"],\
+          ["msgpackr", "npm:1.10.1"],\
           ["msgpackr-extract", "npm:3.0.2"]\
         ],\
         "linkType": "HARD"\

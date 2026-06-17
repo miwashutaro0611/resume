@@ -17,36 +17,37 @@
     "clear": "rm -rf dist .parcel-cache",
     "lint": "run-p 'lint:*'",
     "lint:format": "prettier --write \"**/*.{js,html}\"",
-    "lint:text": "textlint --fix ./*.md",
     "lint:package": "sort-package-json",
+    "lint:text": "textlint --fix ./*.md",
     "pdf": "cat README.md | md-to-pdf --stylesheet https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.0/github-markdown.min.css --body-class markdown-body > miwa-resume.pdf",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "lint-staged": {
     "package.json": "sort-package-json"
   },
   "browserslist": "> 2% in JP, ios >= 15.4, not dead",
   "dependencies": {
-    "axios": "^1.6.2",
-    "marked": "^11.1.0",
-    "md-to-pdf": "^5.2.4",
-    "textlint": "^13.4.1",
-    "textlint-rule-preset-ja-technical-writing": "^9.0.0"
+    "axios": "^1.18.0",
+    "marked": "^18.0.5",
+    "md-to-pdf": "^5.2.5",
+    "textlint": "^15.7.1",
+    "textlint-rule-preset-ja-technical-writing": "^12.0.2"
   },
   "devDependencies": {
-    "@parcel/core": "^2.10.3",
-    "buffer": "^5.5.0||^6.0.0",
-    "husky": "^8.0.3",
-    "lint-staged": "^15.2.0",
-    "npm-run-all": "^4.1.5",
-    "parcel": "^2.10.3",
-    "prettier": "^3.1.1",
+    "@parcel/core": "^2.16.4",
+    "buffer": "^6.0.3",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.0.7",
+    "npm-run-all2": "^9.0.2",
+    "parcel": "^2.16.4",
+    "prettier": "^3.8.4",
     "process": "^0.11.10",
-    "sort-package-json": "^2.6.0"
+    "sort-package-json": "^4.0.0"
   },
-  "packageManager": "yarn@4.0.2",
+  "packageManager": "pnpm@11.7.0",
   "engines": {
-    "node": "20.x",
-    "npm": "please_use_yarn_instead"
+    "node": "24.x",
+    "npm": "please_use_pnpm_instead",
+    "yarn": "please_use_pnpm_instead"
   }
 }

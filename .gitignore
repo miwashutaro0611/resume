@@ -2,11 +2,4 @@ dist/
 node_modules/
 .parcel-cache/
 .idea/
-
-# yarn
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+.DS_Store
